@@ -38,7 +38,7 @@ head(counties)
 It's not very easy to see what's going on when the data is just displayed in a table format
 
 <div style='text-align: center;'>
-    <img height='560' src='assets\img\confused.jpeg' />
+    <img height='560' src='assets/img/confused.jpeg' />
 </div>
 
 --- .class #id 
@@ -48,7 +48,7 @@ It's not very easy to see what's going on when the data is just displayed in a t
 But what if we had a way to visualise this data
 
 <div style='text-align: center;'>
-    <img height='400' src='assets\img\aha.jpeg' />
+    <img height='400' src='assets/img/aha.jpeg' />
 </div>
 
 --- .class #id 
@@ -58,7 +58,7 @@ But what if we had a way to visualise this data
 Introducing the Census Visualisation App
 
 <div style='text-align: center;'>
-    <img height='350' src='assets\img\app.jpg' />
+    <img height='350' src='assets/img/app.jpg' />
 </div>
 
 Click <a href="https://geloofy.shinyapps.io/census-app">here</a> to try it now!
