@@ -1,0 +1,17 @@
+base
+methods
+datasets
+utils
+grDevices
+graphics
+stats
+shiny
+zoo
+xts
+TTR
+quantmod
+shinyapps
+maps
+mapproj
+slidify
+knitr

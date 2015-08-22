@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Census Visualisation App</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Census Visualisation App">
+  <meta name="author" content="Geoffrey Smith">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Census Visualisation App</h1>
+    <h2></h2>
+    <p>Geoffrey Smith<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Census Data</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>You have this census data...</p>
+
+<pre><code class="r">counties &lt;- readRDS(&quot;data/counties.rds&quot;)
+head(counties)
+</code></pre>
+
+<pre><code>##              name total.pop white black hispanic asian
+## 1 alabama,autauga     54571  77.2  19.3      2.4   0.9
+## 2 alabama,baldwin    182265  83.5  10.9      4.4   0.7
+## 3 alabama,barbour     27457  46.8  47.8      5.1   0.4
+## 4    alabama,bibb     22915  75.0  22.9      1.8   0.1
+## 5  alabama,blount     57322  88.9   2.5      8.1   0.2
+## 6 alabama,bullock     10914  21.9  71.0      7.1   0.2
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Now What?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>It&#39;s not very easy to see what&#39;s going on when the data is just displayed in a table format</p>
+
+<div style='text-align: center;'>
+    <img height='560' src='assets\img\confused.jpeg' />
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Imagine</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>But what if we had a way to visualise this data</p>
+
+<div style='text-align: center;'>
+    <img height='400' src='assets\img\aha.jpeg' />
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Visualise</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Introducing the Census Visualisation App</p>
+
+<div style='text-align: center;'>
+    <img height='350' src='assets\img\app.jpg' />
+</div>
+
+<p>Click <a href="https://geloofy.shinyapps.io/census-app">here</a> to try it now!</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Census Data'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Now What?'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Imagine'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Visualise'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
